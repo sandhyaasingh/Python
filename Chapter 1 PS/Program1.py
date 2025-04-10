@@ -1,0 +1,2 @@
+print('''Python is a versatile, high-level, general-purpose programming language known for its readability and simplicity, often used in web development, data science, and machine learning. 
+It's an interpreted language, meaning code is executed line by line, and supports various programming paradigms like object-oriented, procedural, and functional programming.''')

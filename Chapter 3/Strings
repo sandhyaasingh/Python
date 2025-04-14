@@ -1,0 +1,30 @@
+# Slicing
+name = "Sandhya"
+nameshort = name[0:3]
+print(nameshort)
+print(name[-4:-1])
+print(name[:4]) #0:4
+print(name[0:]) #0:len-1
+
+# with skip value
+print(name[0:1:4])
+
+#functions
+name = "aruuU"
+print(len(name))
+print(name.endswith("u"))
+print(name.startswith("a"))
+print(name.capitalize())
+print(name.upper())
+print(name.title())
+print(name.lower())
+
+# escape seq characters
+a = "San is a bad girl\nStill a good girl hehe"
+print(a) #nxt line
+
+a = "San is a bad girl \t Still a good girl hehe"
+print(a) # tab space
+
+a = "San is a bad girl \"Still a good girl\" hehe"
+print(a) # double quote inside double quote
